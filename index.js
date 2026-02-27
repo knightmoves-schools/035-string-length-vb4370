@@ -4,5 +4,6 @@ let length = quote.length;
 let twentySecondLetter = quote[22];
 
 let output = quote.length + [twentySecondLetter]
+output += 'twentySecondLetter
 
 document.getElementById('result').innerHTML = output;
